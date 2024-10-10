@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="assets/img/acm_ssgmce.png" rel="icon">
+    <link href="assets/img/acm_ssgmce.png" rel="apple-touch-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM SSGMCE</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the team cards */
+        .team-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Team member card styling */
+        .team-card {
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for the cards */
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Title styling */
+        h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Team member name styling */
+        .team-name {
+            color: #007BFF;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Icon styling */
+        .icon {
+            display: block;
+            margin: 0 auto 20px;
+            width: 112px;
+            height: 80px;
+            background-image: url('assets/img/acm_ssgmce.png');
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="team-container">
+        <h2>Web Dev Team ACM SSGMCE</h2>
+
+        <!-- Prajwal Kunte's card -->
+        <a href="https://www.linkedin.com/in/prajwal-kunte-008869313" style="text-decoration: none;" target="_blank"> <div class="team-card">
+            <div class="icon"></div>
+            <p class="team-name">Prajwal Kunte</p>
+        </div></a>
+
+        <!-- Deep Rathod's card -->
+        <a href="https://www.linkedin.com/in/deep-rathod-a0883331a/" style="text-decoration: none;" target="_blank"> <div class="team-card">
+            <div class="icon"></div>
+            <p class="team-name">Deep Rathod</p>
+        </div></a>
+    </div>
+</body>
+</html>
